@@ -1,0 +1,18 @@
+<p>
+  <strong>Title:</strong>
+  <%= @article.title %>
+</p>
+ 
+<p>
+  <strong>Text:</strong>
+  <%= @article.text %>
+</p>
+ 
+<h3>Comments</h3>
+<%= render @article.comments %> <%# Using the partial: _comment.html/erb %>
+ 
+<h3>Add a comment:</h3>
+<%= render 'comments/form' %> <%# Using the partial: _form.html/erb %>
+ 
+<%= link_to 'Edit', edit_article_path(@article) %> |
+<%= link_to 'Back', articles_path %>
