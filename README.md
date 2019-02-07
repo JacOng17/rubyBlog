@@ -32,6 +32,7 @@
 
     cd blog
 
+**The blog directory has a number of auto-generated files and folders that make up the structure of a Rails application. Most of the work in this tutorial will happen in the app folder, but here's a basic rundown on the function of each of the files and folders that Rails created by default:**
 | File/Folder   | Purpose|
 |---------------|--------|
 | app/          | Contains the controllers, models, views, helpers, mailers, channels, jobs and assets for your application. You'll focus on this folder for the remainder of this guide.|
