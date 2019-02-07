@@ -25,12 +25,12 @@ cd <file path>    (eg. cd ~/Workspace)
 
 **To make the skeleton of your Rails App:**
 ```
-rails new <App name>    (eg. rails new todo)
+rails new <App name>    (eg. rails new blog)
 ```
 
 **"cd" into the project folder:**
 ```
-cd todo
+cd blog
 ```
 
 **Now run the Rails Server:**
@@ -41,7 +41,7 @@ rails server    [OR rails s] [You can check out your site on "localhost:3000/"]
 
 **Create a Repository on GitHub for this project:**
 ```
-echo "# todo" >> README.md (optional)
+echo "# blog" >> README.md (optional)
 git init
 git add .
 git commit -m "First commit"
