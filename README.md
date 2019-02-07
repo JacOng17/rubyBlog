@@ -39,7 +39,7 @@
 | config/       | Configure your application's routes, database, and more. This is covered in more detail in Configuring Rails Applications.|
 | config.ru     | Rack configuration for Rack based servers used to start the application. For more information about Rack, see the Rack website.|
 | db/           | Contains your current database schema, as well as the database migrations.|
-| Gemfile       | |
+| Gemfile       | A Gemfile describes the gem dependencies required to execute associated Ruby code. Refer to https://bundler.io/man/gemfile.5.html|
 | Gemfile.lock  | These files allow you to specify what gem dependencies are needed for your Rails application. These files are used by the Bundler gem. For more information about Bundler, see the Bundler website.|
 | lib/          | Extended modules for your application.|
 | log/          | Application log files.|
